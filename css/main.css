@@ -10,10 +10,6 @@ body {
   font-size: 2.0rem;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
 @media (max-width: 575.98px) {
   html {
     font-size: 55%;
@@ -44,6 +40,12 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+section.hero {
+  background-image: url("../img/purple.png");
+  width: 100%;
+  margin: 0 auto;
+}
+
 section.black {
   background-color: black;
   color: white;
@@ -60,21 +62,21 @@ section.padded {
 }
 
 section.hero {
-  width: 90%;
-  height: 100vh;
-  padding-top: 30rem;
-  padding-bottom: 30rem;
+  padding-top: 25rem;
+  padding-bottom: 25rem;
 }
 
 section.hero h1 {
-  padding-left: 1rem;
-  padding-right: 6rem;
-  font-size: 6rem;
+  font-size: 9rem;
   font-weight: 800;
 }
 
 section.content .container .row, section.content .container-fluid .row {
   padding-top: 3rem;
+}
+
+section.content .container .row img, section.content .container-fluid .row img {
+  width: 50%;
 }
 
 section.content .container .row .border-white, section.content .container-fluid .row .border-white {
@@ -89,29 +91,6 @@ section.content .container .row .column-pad, section.content .container-fluid .r
   padding-top: 2rem;
 }
 
-section .contain {
-  width: 100%;
-  margin-bottom: 2rem;
-  background-color: black;
-}
-
-section.black {
-  background-color: black;
-  color: white;
-}
-
-section.pink {
-  background-color: #ff267c;
-  color: white;
-}
-
-section.padded {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 section.footer a i {
-  font-size: 5rem;
-  margin-right: 5rem;
-  color: #ff267c;
+  font-size: 4rem;
 }
