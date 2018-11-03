@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 2.0rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+section.black {
+  background-color: black;
+  color: white;
+}
+
+section.white {
+  background-color: white;
+  color: black;
+}
+
+section.padded {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+section.hero {
+  width: 90%;
+  height: 100vh;
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+}
+
+section.hero h1 {
+  padding-left: 1rem;
+  padding-right: 6rem;
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+section.content .container .row, section.content .container-fluid .row {
+  padding-top: 3rem;
+}
+
+section.content .container .row .border-white, section.content .container-fluid .row .border-white {
+  border: 0.1rem solid white;
+}
+
+section.content .container .row .border-black, section.content .container-fluid .row .border-black {
+  border: 0.1rem solid black;
+}
+
+section.content .container .row .column-pad, section.content .container-fluid .row .column-pad {
+  padding-top: 2rem;
+}
+
+section .contain {
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: black;
+}
+
+section.black {
+  background-color: black;
+  color: white;
+}
+
+section.pink {
+  background-color: #ff267c;
+  color: white;
+}
+
+section.padded {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section.footer a i {
+  font-size: 5rem;
+  margin-right: 5rem;
+  color: #ff267c;
+}

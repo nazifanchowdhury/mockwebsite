@@ -1,0 +1,84 @@
+@import '_variables';
+@import '_base.scss';
+
+section {
+	&.black {
+		background-color: $background-color1;
+		color: white;
+	}
+
+	&.white {
+		background-color: $background-color2;
+		color: black;
+	}
+
+	&.padded {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	&.hero {
+
+	  width: 90%;
+	  height: 100vh;
+		//background-image: url("../img/henlo.jpg");
+
+	  h1 {
+			padding-left: 1rem;
+			padding-right: 6rem;
+			font-size: 6rem;
+			font-weight: 800;
+	  }
+
+		padding-top: 30rem;
+		padding-bottom: 30rem;
+	}
+
+	&.content {
+		.container, .container-fluid {
+			.row {
+				padding-top: 3rem;
+
+				.border-white {
+					border: 0.1rem solid white;
+				}
+				.border-black {
+					border: 0.1rem solid black;
+				}
+
+				.column-pad {
+					padding-top: 2rem;
+				}
+
+			}
+		}
+	}
+
+}
+
+section .contain {
+	width: 100%;
+	margin-bottom: 2rem;
+	background-color: black;
+}
+
+section.black {
+  background-color: black;
+  color: white;
+}
+
+section.pink {
+  background-color: #ff267c;
+  color: white;
+}
+
+section.padded {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section.footer a i {
+  font-size: 5rem;
+  margin-right: 5rem;
+  color: #ff267c;
+}

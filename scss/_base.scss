@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+// Add this to begin using rem
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	line-height: 1.5;
+	font-size: 2.0rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+html {
+  // Extra small devices (portrait phones)
+  @media (max-width: 575.98px) {
+    font-size: 55%;
+  }
+  // Small devices (landscape phones)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 58%;
+  }
+  // Medium devices (tablets)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 60%;
+  }
+  // Large devices (desktops)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    font-size: 62.5%;
+  }
+  // Extra large devices (large desktops)
+  @media (min-width: 1200px) {
+    font-size: 62.5%;
+  }
+}
