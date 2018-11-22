@@ -75,10 +75,6 @@ section.content .container .row, section.content .container-fluid .row {
   padding-top: 3rem;
 }
 
-section.content .container .row img, section.content .container-fluid .row img {
-  width: 50%;
-}
-
 section.content .container .row .border-white, section.content .container-fluid .row .border-white {
   border: 0.1rem solid white;
 }
